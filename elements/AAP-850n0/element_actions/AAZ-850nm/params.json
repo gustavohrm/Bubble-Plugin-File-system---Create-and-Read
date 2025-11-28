@@ -1,0 +1,39 @@
+{
+    "caption": "Create a file",
+    "fields": {
+        "AAh": {
+            "caption": "Content",
+            "default_val": "Edit me!",
+            "doc": "The raw content of the file.",
+            "editor": "DynamicValue",
+            "name": "content",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "File name",
+            "default_val": "example.txt",
+            "doc": "The name of the file, including the extension.",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "Download",
+            "default_val": true,
+            "doc": "If checked, the file will be automatically downloaded after being created.",
+            "editor": "Checkbox",
+            "name": "download",
+            "rank": 2
+        },
+        "AAk": {
+            "caption": "Save to Bubble",
+            "default_val": false,
+            "doc": "If checked, the file will be automatically uploaded to you Bubble database after being created.",
+            "editor": "Checkbox",
+            "name": "save_to_bubble",
+            "rank": 3
+        }
+    }
+}

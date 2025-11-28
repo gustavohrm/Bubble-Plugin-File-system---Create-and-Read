@@ -1,0 +1,22 @@
+{
+    "caption": "Read a file",
+    "fields": {
+        "AAa": {
+            "caption": "File",
+            "doc": "The URL of the file you want to read.",
+            "editor": "DynamicValue",
+            "name": "file",
+            "optional": true,
+            "rank": 0,
+            "value": "file"
+        },
+        "AAf": {
+            "caption": "Open select dialog",
+            "default_val": false,
+            "doc": "If checked, the previous field will be ignored and a dialog will be opened so the user can select a file.",
+            "editor": "Checkbox",
+            "name": "dialog",
+            "rank": 1
+        }
+    }
+}

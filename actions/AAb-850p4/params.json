@@ -1,0 +1,41 @@
+{
+    "category": "plugins",
+    "display": "Read a file (server)",
+    "fields": {
+        "AAc": {
+            "caption": "File",
+            "doc": "The URL of the file you want to read.",
+            "editor": "DynamicValue",
+            "name": "file",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAn": {
+            "caption": "This action will read the provided file and return its content on next action. This action is executed on server-side, so you can use it on backend workflows, but be aware that this consumes WUs.",
+            "editor": "Label",
+            "name": "warning",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAd": {
+            "caption": "content",
+            "name": "content",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "error",
+            "name": "error",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "file name",
+            "name": "file_name",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

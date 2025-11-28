@@ -1,0 +1,47 @@
+{
+    "category": "plugins",
+    "display": "Create a file (server)",
+    "fields": {
+        "AAI": {
+            "caption": "Content",
+            "default_val": "Edit me!",
+            "doc": "The raw content of the file.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "content",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "File name",
+            "default_val": "example.txt",
+            "doc": "The name of the file, including the extension.",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "This action will create the file and automatically upload it to your Bubble database, returning the URL on next actions. This action is executed on server-side, so you can use it on backend workflows, but be aware that this consumes WUs.",
+            "editor": "Label",
+            "name": "warning",
+            "rank": 2
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "file",
+            "name": "file",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAL": {
+            "caption": "error",
+            "name": "error",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "image",
+        "2": "media",
+        "3": "productivity",
+        "4": "data (things)"
+    },
+    "data_tracked": false,
+    "demo_page": "https://bublet.bubbleapps.io/version-test/demo/file-system",
+    "description": "Easily read and create files on server-side, or client-side, saving a lot of WUs.\n\nFull documentation:\nhttps://bublet.bubbleapps.io/version-test/docs/file-system\n\nDemonstration and examples:\nhttps://bublet.bubbleapps.io/version-test/demo/file-system\n\nBubble editor:\nhttps://bubble.io/page?id=bublet-plugins&tab=Design&name=file-system",
+    "image": "//meta-q.cdn.bubble.io/f1747152768356x950230007606286300/file-system.jpg",
+    "license": "open_source",
+    "link": "https://bublet.bubbleapps.io/version-test/docs/file-system",
+    "name": "File system - Create and Read",
+    "plugin_instructions": "See full documentation at:\nhttps://bublet.bubbleapps.io/version-test/docs/file-system\n\n\nFound a bug, error or just have a suggestion? Please send to:\ngustavohrmotta@gmail.com",
+    "sa_node_version": 18
+}
