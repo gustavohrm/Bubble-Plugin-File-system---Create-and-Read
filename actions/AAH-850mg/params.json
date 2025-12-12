@@ -9,7 +9,7 @@
             "editor": "DynamicValue",
             "long_text": true,
             "name": "content",
-            "rank": 0,
+            "rank": 1,
             "value": "text"
         },
         "AAJ": {
@@ -18,14 +18,22 @@
             "doc": "The name of the file, including the extension.",
             "editor": "DynamicValue",
             "name": "filename",
-            "rank": 1,
+            "rank": 2,
             "value": "text"
         },
         "AAm": {
             "caption": "This action will create the file and automatically upload it to your Bubble database, returning the URL on next actions. This action is executed on server-side, so you can use it on backend workflows, but be aware that this consumes WUs.",
             "editor": "Label",
             "name": "warning",
-            "rank": 2
+            "rank": 3
+        },
+        "AAt": {
+            "caption": "App URL",
+            "doc": "The home URL of your app (e.g https://yourdomai.com).",
+            "editor": "DynamicValue",
+            "name": "appUrl",
+            "rank": 0,
+            "value": "text"
         }
     },
     "return_value": {

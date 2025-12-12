@@ -1,10 +1,10 @@
 async function(properties, context) {
     
-    const { content, filename } = properties
+    const { appUrl, content, filename } = properties
     
     try{
-        if (!content || !filename) throw new Error('Invalid content or filename.');
-        const res = await fetch("https://bublet-plugins.bubbleapps.io/version-test/fileupload", {
+        if (!appUrl || !content || !filename) throw new Error('Invalid content or filename.');
+        const res = await fetch(`${appUrl}/fileupload`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
